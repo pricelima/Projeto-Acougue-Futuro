@@ -1,43 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <title>Açougue do Futuro</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Carrossel</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="img/logo_acougue 1.png" alt="logo açougue do futuro"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                
-              </form>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">CATÁLOGO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">QUEM SOMOS</a>
-              </li>
-            </ul>
-            
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-center m-auto">
+        <h2>Depoimentos ;)</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Carousel -->
+          <div class="carousel-inner">
+            <div class="item carousel-item active">
+              <div class="img-box"><img src="https://i.ibb.co/d5DY64w/img1.jpg" alt="Imagem do desenvolvedor"></div>
+              <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+              <p class="overview"><b>Felipe Lima</b>, Desenvolvedor frontend</p>
+            </div>
+            <div class="item carousel-item">
+              <div class="img-box"><img src="https://i.ibb.co/5FF1vqz/img2.jpg" alt="Imagem do desenvolvedor"></div>
+              <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+              <p class="overview"><b>Guilherme Santos</b>, Desenvolvedor Fullstack</p>
+            </div>
+            <div class="item carousel-item">
+              <div class="img-box"><img src="https://i.ibb.co/Trv7hDv/img3.jpg" alt="Imagem do desenvolvedor"></div>
+              <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+              <p class="overview"><b>Rodrigo</b>, Desenvolvedor</p>
+            </div>
           </div>
+          <!-- Carousel Controls -->
+          <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+          </a>
+          <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+          </a>
         </div>
-      </nav>
-
-
-      <!-- Javascript Bootstrap -->
-      <script src="js/bootstrap.bundle.js"></script>
+      </div>
+    </div>
+  </div>
 </body>
-</html>
+</html>                                		
